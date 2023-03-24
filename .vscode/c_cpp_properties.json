@@ -1,0 +1,38 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "intelliSenseMode": "macos-gcc-arm64",
+            "compilerPath": "usr"
+        },
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "intelliSenseMode": "${default}",
+            "compilerPath": "bin",
+            "compilerArgs": [
+                "==sysroot"
+            ],
+            "cStandard": "gnu23",
+            "cppStandard": "gnu++23",
+            "configurationProvider": "exe",
+            "windowsSdkVersion": "1.2.5",
+            "mergeConfigurations": true,
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true
+            }
